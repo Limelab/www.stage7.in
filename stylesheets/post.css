@@ -1,0 +1,92 @@
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: trio.*/
+/* Version: 1.0 Initial Release*/
+/* Build Date: 25th june 2015*/
+/* Author: ThemeStag.*/
+/* Website: http://www.themestag.com */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.single-post{
+	background: url('../images/intro-02/home-01.jpg');
+	background-size: cover;
+	background-attachment: fixed;	
+	/*overflow: hidden;*/
+}
+
+.post-home-content-wrap {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.post-home-content {
+	text-align: center;
+}
+
+.post-home-content h1 {
+	font-size: 54px;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: capitalize;
+	padding-top: 20px;
+}
+
+
+.post-home-content h5 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 700;
+}
+
+.post-home-content h5 span {
+	padding: 10px;
+	background-color: #000;
+}
+
+
+.post-caption{
+	padding-left: 15px;
+}
+
+.post-caption h1{
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.post-sub-head {
+	padding-left: 15px;
+}
+
+
+
+.post-content-head{
+	padding-left: 15px;
+}
+
+.post-content-head h6{
+	font-size: 16px;
+	font-weight: 900;
+	text-transform: uppercase;
+
+}
+
+.post-content-head h6:after{
+	content: "";
+	display: block;
+	width: 25px;
+	height: 2px;
+	margin-top: 25px;
+}
+
+
+.post-content p{
+	font-size: 16px;
+}

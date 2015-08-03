@@ -1,0 +1,197 @@
+
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*This is main CSS file that contains custom style rules used in this template*/
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/* Template Name: trio.*/
+/* Version: 1.0 Initial Release*/
+/* Build Date: 25th june 2015*/
+/* Author: ThemeStag.*/
+/* Website: http://www.themestag.com */
+/* Copyright: (C) 2015 */
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+
+
+
+.single-project{
+	background: url('../images/intro-02/home-01.jpg');
+	background-size: cover;	
+	overflow: hidden;
+}
+
+.project-home-content-wrap {
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.project-home-content {
+	text-align: center;
+}
+
+.project-home-content h5 {
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	font-weight: 700;
+}
+
+.project-home-content h5 span {
+	padding: 10px;
+	background-color: #000;
+}
+
+.project-home-content h1 {
+	font-size: 54px;
+	font-weight: 400;
+	font-style: italic;
+	text-transform: capitalize;
+	padding-top: 20px;
+}
+
+.project-slider {
+	padding-bottom: 2px;
+}
+
+.project-slider-wrap {
+	position: relative;
+}
+
+.project-light-box{
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.project-light-box article{
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.light-box-showcase {
+	position: relative;
+	overflow: hidden;
+	margin: 1px;
+}
+
+.project-light-box-hover {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	text-align: center;
+	left: 0;
+	background-color: #E63647;
+  	-webkit-transition: all .6s ease-in-out;
+	   -moz-transition: all .6s ease-in-out;
+		-ms-transition: all .6s ease-in-out;
+		 -o-transition: all .6s ease-in-out;
+			transition: all .6s ease-in-out;
+}
+
+.light-box-showcase a:hover .project-light-box-hover {
+	top: 0%;
+}
+
+
+
+.project-caption h1{
+	padding-left: 15px;
+	font-weight: 700;
+	text-transform: capitalize;
+}
+
+.project-sub-head h3 {
+	padding-left: 15px;
+}
+
+.project-content-head h6{
+	font-size: 14px;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-left: 15px;
+}
+
+
+.project-content-head h6:after{
+	content: "";
+	display: block;
+	width: 25px;
+	height: 2px;
+	margin-top: 25px;
+}
+
+.project-content p{
+	font-size: 16px;
+}
+
+.project-light-box-content-wrap {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.project-light-box-content h1 {
+	text-transform: capitalize;
+	font-size: 24px;
+	font-weight: 400;
+}
+
+.project-light-box-content h5 {
+	font-weight: lighter;
+	margin-top: 5px;
+	text-transform: capitalize;
+}
+
+.project-light-box-content .line {
+	width: 30%;
+	height: 1px;
+	background-color: #fff;
+	margin: 0 auto;
+}
+
+.project-customNavigation a {
+	position: absolute;
+	top: 50%;
+  	-webkit-transform: translateY(-50%);
+  	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+  	border-radius: 0 !important;
+}
+
+.project-customNavigation a.prev {
+	left: 0;
+	padding: 0;
+	margin: 0;
+}
+
+.project-customNavigation a.next {
+	right: 0;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
